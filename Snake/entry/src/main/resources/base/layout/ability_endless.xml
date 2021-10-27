@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="center"
+    ohos:background_element="$media:timeout"
+    ohos:alpha="0.8">
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_size="70px"
+        ohos:id="$+id:score_time"
+        ohos:hint="您当前的分数："
+        ohos:text_color="#0000FF"
+        ohos:text_alignment="center"
+        ohos:italic="true"
+        ohos:text_weight="700"/>
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:margin="20px"
+        ohos:text="返回"
+        ohos:text_size="70px"
+        ohos:id="$+id:time_back_btn"
+        ohos:text_color="#0000FF"
+        ohos:italic="true"
+        ohos:text_weight="700"
+        ohos:background_element="$graphic:capsule_button_element"/>
+
+</DirectionalLayout>

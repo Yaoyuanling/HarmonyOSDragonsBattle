@@ -1,0 +1,28 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('E:/HarmonyOS/keystore/HarmonyOSHap.p12')
+            storePassword '00000019B6D8599ED1DD4E60B56FD91EBC59A8A6C8EE8F03F50DE5F6C4BB0E0BF4DBB860664661062F'
+            keyAlias 'myApplication'
+            keyPassword '00000019B359B0B5AFFEF177BAAE097ACCF812B78BEF7EE4141695038902DDCCFB03BEACA6F146AC88'
+            signAlg 'SHA256withECDSA'
+            profile file('E:/HarmonyOS/keystore/snakeDebug.p7b')
+            certpath file('E:/HarmonyOS/keystore/snake.cer')
+        }
+    }
+    compileSdkVersion 4
+    defaultConfig {
+        compatibleSdkVersion 3
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testCompile'junit:junit:4.12'
+    implementation 'com.zzrv5.zzrhttp:ZZRHttp:1.0.1'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.11.0'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.11.0'
+
+}

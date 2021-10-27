@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Snake"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "timeability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "endlessability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "timeoutability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "rankability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    }
+  ]
+}

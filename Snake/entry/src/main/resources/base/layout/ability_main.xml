@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="center"
+    ohos:background_element="$media:bak"
+    >
+  <Button
+      ohos:height="400px"
+      ohos:width="match_content"
+      ohos:text="无尽模式"
+      ohos:id="$+id:endless_btn"
+      ohos:top_margin="300px"
+      ohos:text_size="40fp"
+      ohos:clickable="true"
+      ohos:text_color="#0000FF"
+      ohos:italic="true"
+      ohos:text_weight="700"
+      ohos:text_font="serif"
+      ohos:background_element="$media:btn4"
+      ohos:alpha="0.8"/>
+  <Button
+      ohos:height="400px"
+      ohos:width="match_content"
+      ohos:text="计时模式"
+      ohos:id="$+id:time_btn"
+      ohos:text_size="40fp"
+      ohos:top_margin="200px"
+      ohos:clickable="true"
+      ohos:text_color="#0000FF"
+      ohos:italic="true"
+      ohos:text_weight="700"
+      ohos:text_font="serif"
+      ohos:background_element="$media:btn1"
+      ohos:alpha="0.8"/>
+  <Button
+      ohos:height="300px"
+      ohos:width="300px"
+      ohos:text="流转"
+      ohos:id="$+id:wander_btn"
+      ohos:text_size="25fp"
+      ohos:top_padding="170px"
+      ohos:text_alignment="center"
+      ohos:left_margin="-320px"
+      ohos:top_margin="300px"
+      ohos:text_color="#ffffff"
+      ohos:background_element="$media:build"
+      />
+
+</DirectionalLayout>

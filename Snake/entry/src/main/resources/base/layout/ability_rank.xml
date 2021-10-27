@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_size="40fp"
+        ohos:id="$+id:first_score"
+        ohos:text_alignment="center"
+        ohos:text="第一名"
+        ohos:text_color="#e219f2"/>
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:id="$+id:second_score"
+        ohos:text_alignment="center"
+        ohos:text_size="30fp"
+        ohos:text="第二名"
+        ohos:text_color="#af19f2"/>
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:id="$+id:third_score"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:text="第三名"
+        ohos:text_color="#7719f2"/>
+    <Text
+        ohos:height="match_content"
+        ohos:id="$+id:my_rank"
+        ohos:width="600px"
+        ohos:text_alignment="center"
+        ohos:text_size="35fp"
+        ohos:text_color="#af1902"/>
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:margin="20px"
+        ohos:text="返回"
+        ohos:text_size="40fp"
+        ohos:id="$+id:rank_back_btn"
+        ohos:text_color="#ffffff"
+        ohos:italic="true"
+        ohos:text_weight="700"
+        ohos:background_element="$graphic:capsule_button_element"/>
+
+</DirectionalLayout>

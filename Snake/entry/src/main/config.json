@@ -1,0 +1,141 @@
+{
+  "app": {
+    "bundleName": "com.example.snake",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "usesCleartext": true
+      }
+    }
+  },
+  "module": {
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.GET_DISTRIBUTED_DEVICE_INFO"
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name":"ohos.permission.servicebus.ACCESS_SERVICE"
+      },
+      {
+        "name": "com.huawei.hwddmp.servicebus.BIND_SERVICE"
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DEVICE_STATE_CHANGE"
+      },
+      {
+        "name": "ohos.permission.GET_BUNDLE_INFO"
+      }
+    ],
+    "package": "com.example.snake",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.snake.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "贪吃蛇",
+        "type": "page",
+        "launchType": "standard",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        }
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.snake.RankAbility",
+        "icon": "$media:icon",
+        "description": "$string:rankability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "landscape",
+        "name": "com.example.snake.TimeAbility",
+        "icon": "$media:icon",
+        "description": "$string:timeability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        }
+      },
+      {
+        "orientation": "landscape",
+        "name": "com.example.snake.EndlessAbility",
+        "icon": "$media:icon",
+        "description": "$string:endlessability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar",
+              "extra": ""
+            }
+          ]
+        }
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.snake.TimeOutAbility",
+        "icon": "$media:icon",
+        "description": "$string:timeoutability_description",
+        "label": "entry",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

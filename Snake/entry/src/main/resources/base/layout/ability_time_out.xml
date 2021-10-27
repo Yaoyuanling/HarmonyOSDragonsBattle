@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="center"
+    ohos:background_element="$media:timeout"
+    ohos:alpha="0.8">
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_size="70px"
+        ohos:id="$+id:score_time"
+        ohos:hint="您当前的分数："
+        ohos:text_color="#0000FF"
+        ohos:text_alignment="center"
+        ohos:italic="true"
+        ohos:text_weight="700"/>
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint="用户名:"
+        ohos:id="$+id:user_info"
+        ohos:text_weight="700"
+        ohos:background_element="$graphic:capsule_button_element"
+        ohos:left_margin="20px"
+        ohos:right_margin="20px"
+        ohos:top_margin="20px"
+        ohos:text_size="40fp"/>
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text="查看排名"
+        ohos:id="$+id:time_okhttp"
+        ohos:text_size="40fp"
+        ohos:text_alignment="center"
+        ohos:left_margin="20px"
+        ohos:right_margin="20px"
+        ohos:top_margin="20px"
+        ohos:text_color="#ffffff"
+        ohos:background_element="$graphic:capsule_button_element"
+        />
+    <Button
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:margin="20px"
+        ohos:text="返回"
+        ohos:text_size="40fp"
+        ohos:id="$+id:time_back_btn"
+        ohos:text_color="#ffffff"
+        ohos:italic="true"
+        ohos:text_weight="700"
+        ohos:background_element="$graphic:capsule_button_element"/>
+
+</DirectionalLayout>
